@@ -1,6 +1,6 @@
 # Coverage probability of large-sample CI 
 
-setwd("/Users/jarrettphillips/desktop/HACSim Simulation Study Paper/Supplemental Information/p = 0.80/hypothetical species")
+setwd("/Users/jarrettphillips/desktop/HACSim Simulation Study Paper/Supplemental Information/p = 0.95/hypothetical species")
 
 out <- read.table(file.choose(), sep = ",") # read in data
 

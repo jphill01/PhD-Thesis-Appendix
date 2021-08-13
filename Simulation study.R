@@ -1,9 +1,9 @@
 #Reads data saved from running HACSim_running.r and 
 #sets the name for the output file.
 #The data in the file to read from is in the format "N*, R"
-setwd("/Users/jarrettphillips/desktop/HACSim Simulation Study Paper/Supplemental Information/p = 0.80/real species")
-myvals <- read.csv("data-hammerhead-0.8.txt", header = FALSE)
-output_file_name <- "Select-hammerhead-0.8-10m.txt"
+setwd("/Users/jarrettphillips/desktop/HACSim Simulation Study Paper/Supplemental Information/p = 0.95/hypothetical species")
+myvals <- read.csv("data-90.txt", header = FALSE)
+output_file_name <- "Select-90-10k.txt"
 
 #set.seed(1234)
 
