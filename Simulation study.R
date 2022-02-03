@@ -1,4 +1,4 @@
-# Reads data saved from running HACSim_running.r and 
+# Reads data saved from running HACSim and 
 # sets the name for the output file.
 setwd("/Users/jarrettphillips/desktop/HACSim Simulation Study Paper/Supplemental Information/p = 0.95/hypothetical species")
 myvals <- read.csv("data-90.txt", header = FALSE)
