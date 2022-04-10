@@ -7,15 +7,15 @@ output_file_name <- "Select-90-10k.txt"
 # set.seed(1234)
 
 # set up probabilities for haplotype generation in the population
-probs <- envr$probs
+# probs <- envr$probs
 # probs <- c(rep(0.1, 10))
-# probs <- c(0.9, rep(0.1/9, 9))
+probs <- c(0.9, rep(0.1/9, 9))
 # probs <- c(0.45, 0.45, rep(0.1/8, 8))
 # probs <- c(rep(0.3, 3), rep(0.10/7, 7))
 
 # Sets the number of haplotypes in the species
-# Hstar <- 10
-Hstar <- envr$Hstar
+Hstar <- 10
+# Hstar <- envr$Hstar
 
 # set the population size
 pop.size <- 10000
