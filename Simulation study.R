@@ -18,7 +18,7 @@ probs <- envr$probs
 Hstar <- envr$Hstar
 
 # set the population size
-pop.size <- 10000000
+pop.size <- 10000
 
 # number of replications
 num.reps <- 50
