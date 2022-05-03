@@ -37,7 +37,7 @@ for (x in uniqueVals) {
   totalHaps <- vector()
   for (y in 1:num.reps) {
     # get N* unique samples from the population
-    sampled <- sample(1:pop.size, x, replace = FALSE)
+    sampled <- sample(1:pop.size, x, replace = FALSE) # individuals sampled
     hapsFound <- vector()
     # find what the haplotypes of the samples are
     for (z in 1:length(sampled)) {
